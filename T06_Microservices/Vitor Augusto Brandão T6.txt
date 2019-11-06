@@ -1,0 +1,10 @@
+Vitor Augusto da Silva Brandão RA 1510032800 CCO 8o Semestre
+
+Caso de Microservices da Uber
+
+A Uber, em seu início possuía um sistema monolítico e, conforme foram aumentando os recursos seu sistema foi se tornando cada vez mais acoplado e com o aumento de demanda cada nova atualização ficava mais difícil de ser realizada.
+Dado este cenário de hiper-crescimento, a empresa migrou o sistema para a arquitetura SOA, utilizando o Apache Thrift (já que uma API REST com JSON não foram bem-sucedidos).
+
+O processo de migração para microserviços teve o objetivo de alcançar uma melhor escalabilidade em três aspectos diferentes: manipular o tráfego crescente; adicionar novas funcionalidades com facilidade; e a adoção de uma arquitetura que pode facilmente adaptar-se ao crescimento da empresa.
+
+Para lidar com o aumento no número de solicitações de serviço, os engenheiros do Uber confiaram no Tornado, uma biblioteca Python de rede assíncrona baseada em loop de eventos que mostrou ser capaz de escalar a dezenas de milhares de conexões abertas simultaneamente. Uma das vantagens de usar o Tornado foi sua capacidade de integrar-se bem ao código Python de rede existente no Uber, que foi estruturado em torno de um paradigma síncrono.
