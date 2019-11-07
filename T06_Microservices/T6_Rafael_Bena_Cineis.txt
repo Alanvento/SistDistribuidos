@@ -1,0 +1,19 @@
+Rafael Bená Cineis - 8º CCO - RA: 1510033203
+
+Um exemplo de implementação de microservices de sucesso é a própria Amazon, ela
+conseguiu alcançar o sucesso até mesmo em uma época em que a arquitetura
+"monolito" era o jeito de desenvolver as coisas. Os serviços e componentes da
+empresa eram acoplados uns com os outros, assim tendo muitos desenvolvedores
+divididos pela empresa, o que acabava por impedindo a Amazon de fazer "deploy"
+de forma simples e rápida, tudo isso fazia com que os clientes ficassem
+esperando algumas semanas até que as pipelines funcionassem 100%.
+
+Com a implementação de microservices simplificaram e diminuiram as pipelines,
+assim tornando menos "doloroso" cada "deploy". As estruturas foram divididas em
+aplicações unicas o que permitiu que percebessem onde ficava alguns gargalos
+por deixar mais simples o sistema na hoa de debuggar. Com essas mudanças foi
+possível que os desenvolvedores refizessem as aplicações com estrutura
+orientadas a serviços, com pequenos times responsáveis por cada serviço. Com
+isso, o que começou como apenas uma limpeza e simplificação de código acabou se
+tornando uma evolução, que permitiu que a Amazon cresesse ainda mais e lançar
+uma série de soluções open-source como a própria AWS.
