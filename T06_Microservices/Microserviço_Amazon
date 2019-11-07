@@ -1,0 +1,11 @@
+Nome :Alan Do Nascimento Simas 1510019428
+
+Questão 1 : Um caso rel de Implementação de microservice
+
+Muita empresas começam usando serviços monolitos na construção de seu sistemas, pois é mais veloz pra alavancar seu negócio
+para esse caso trataremos da empresa Amazon.
+Que começou utilizando a arquitetura monolito  porém a medida que os negócios se expandiram a equipe de desenvolvedor aumentou o código se tornou mais complexo e arquitetura também,assim foi reduzida a velocidade e eficiência.
+Nessa perspectiva é adotada para e-commerce e grandes sistemas o micro serviços.Assim, cada um dos serviços responde como uma única função.Busca de um produto,pagamento e envio por exemplo no caso da Amazon.
+O caso da Amazon foi curioso, pois foi um dos pioneiros num tempo onde a arquitetura monolito era A maneira de se desenvolver.
+A grande vendedora de livros em seu início tinha uma grande fila de desenvolvimento com os updates engarrafados para serem aplicados.
+O que começou como uma maneira de "limpar" essa bagunça, acabou virando equipes de desenvolvedores pegando essas melhorias e transformando em micro serviços o que permetiu ver onde a implementação estava lenta e o que de fato estava impacando os serviços da empresa.A ideia na verdade era reduzir o engarrafamento dos serviços e acabou solucionando o problema pois a escolha de micro serviços permitiu uma independencia de melhorias e atualizaões dos serviços um código clean e a redução drástica do tempo que levava para os processos e varias equipes engagerem na mesma tarefa além da complexidade e do tempo "morto" que era gasto passando essa atividade entre as equipes.Melhorando disponibilidade e escalabilidade além da manutenção do código.
